@@ -10,9 +10,9 @@ Prefix URLs in &lt;script>/&lt;link>/&lt;img> with a cdn URL
 ## Usage ##
 
 ```javascript
-var inliner = require("js-inliner");
+var prefixer = require("html-prefixer");
 
-prefix(stream, { prefix : "//abcdefg123.cloudfront.net" }, function(err, text) {
+prefixr(stream, { prefix : "//abcdefg123.cloudfront.net" }, function(err, text) {
     if(err) {
         throw new Error(err);
     }
@@ -23,7 +23,7 @@ prefix(stream, { prefix : "//abcdefg123.cloudfront.net" }, function(err, text) {
 
 ## API ##
 
-### prefix(stream, [options], cb)
+### prefixer(stream, [options], cb)
 
 * `stream` {Stream} Readable stream to parse
 * `options` {Object}
