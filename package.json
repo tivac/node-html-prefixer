@@ -1,6 +1,6 @@
 {
   "name": "html-prefixer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Prefix urls in <script>/<link>/<img> with a cdn URL",
   "main": "./lib/prefix.js",
   "scripts": {
