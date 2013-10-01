@@ -1,5 +1,5 @@
 {
-  "name": "html-prefix",
+  "name": "html-prefixer",
   "version": "0.0.1",
   "description": "Prefix urls in <script>/<link>/<img> with a cdn URL",
   "main": "./lib/prefix.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tivac/node-html-prefix.git"
+    "url": "https://github.com/tivac/node-html-prefixer.git"
   },
   "author": "Pat Cavit <pcavit@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tivac/node-html-prefix/issues"
+    "url": "https://github.com/tivac/node-html-prefixer/issues"
   },
   "devDependencies": {
     "mocha": "~1.13.0",
@@ -38,6 +38,7 @@
     "transform",
     "performance",
     "optimization",
-    "prefix"
+    "prefix",
+    "cdn"
   ]
 }
