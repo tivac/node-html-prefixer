@@ -34,3 +34,12 @@ prefixr(stream, { prefix : "//abcdefg123.cloudfront.net" }, function(err, text) 
 #### Options
 
 * `prefix` {String} URL used to prefix elements.
+
+## A Note on Versioning ##
+
+This project's version number currently has a "0.x" prefix, indicating that it's a new
+project under heavy development. **As long as the version number starts with
+"0.x", minor revisions may introduce breaking changes.** You've been warned!
+
+Once it reaches version 1.0.0, it will adhere strictly to
+[SemVer 2.0](http://semver.org/spec/v2.0.0.html).
