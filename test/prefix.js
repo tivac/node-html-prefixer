@@ -27,6 +27,7 @@ describe("HTML Prefix", function() {
                 assert(js.indexOf("<link href=\"//f.com/assets/github2.css\"") > -1);
                 assert(js.indexOf("<script src=\"//f.com/looga/hooga/yooga/nooga.js\">") > -1);
                 assert(js.indexOf("<script src=\"//fooga.com/wooga.js\">") > -1);
+                assert(js.indexOf("<img src=\"//f.com/boogie/woogie.png\">") > -1);
                 assert(js.indexOf("<script src=\"//f.com/wooga.js\"></script>") > -1);
                 assert(js.indexOf("<script src=\"//f.com/booga/fooga.js\"></script>") > -1);
                 
