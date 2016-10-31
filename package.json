@@ -24,7 +24,7 @@
     "trumpet": "~1.7.2"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">= 4"
   },
   "directories": {
     "test": "tests",
