@@ -2,8 +2,9 @@ html-prefixer
 =============
 [![Build Status](https://travis-ci.org/tivac/node-html-prefixer.png?branch=master)](https://travis-ci.org/tivac/node-html-prefixer) [![NPM version](https://badge.fury.io/js/html-prefixer.png)](http://badge.fury.io/js/html-prefixer) [![Dependency Status](https://gemnasium.com/tivac/node-html-prefixer.png)](https://gemnasium.com/tivac/node-html-prefixer) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tivac/node-html-prefixer/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-
 Prefix URLs in &lt;script>/&lt;link>/&lt;img> with a cdn URL
+
+## :warning: :zap: :warning: This project is UNMAINTAINED :warning: :zap: :warning:
 
 ## Usage ##
 
